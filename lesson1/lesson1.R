@@ -14,6 +14,9 @@ head(myData)
 # What is the structure of our data
 str(myData)
 
+# We can summarize all of the columns with summary()
+summary(myData)
+
 # Let's look at a single column
 myData$PTS
 
